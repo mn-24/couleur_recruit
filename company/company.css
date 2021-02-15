@@ -1,0 +1,497 @@
+body{
+	text-align: center;
+	background-image: url("img/back_sp.png");
+	background-position: top;
+}
+
+.titleArea{
+	font-size: 26px;
+	position: relative;
+    top: 10px;
+}
+
+h1{
+	margin: 0 auto 5px;
+}
+
+section{
+	background-color:#ffffffbd;
+	width: 85vw;
+	text-align: center;
+	margin: 10px auto;
+	margin-bottom: 65px;
+	box-shadow: 0 0 11px 1px grey;
+}
+
+h2{
+	font-size: 25px;
+	padding-top: 15px;
+	margin-bottom: 10px;
+}
+
+.representativeMessageArea{
+	width: 75vw;
+	margin: 20px auto;
+	font-family: "メイリオ" , Meiryo ,"Meiryo UI" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+}
+
+.representativeMessageBox{
+	height: 37vh;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.representativeImg{
+	height: auto;
+}
+
+.messageTitleArea{
+	width: 100%;
+    position: absolute;
+	background-color:#FB9A3B;
+	text-align: left;
+	color: #fefffd;
+	bottom: 2px;
+}
+
+h3{
+	font-size: 22px;
+	margin-left: 10px;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+
+.messageTitleArea p{
+	font-size: 16px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+
+.messageArea{
+	width: 70vw;
+	text-align: left;
+	padding-bottom: 10px;
+	margin: 0 auto;
+}
+
+.messageArea p{
+	font-size: 16px;
+	margin-top: 0;
+}
+
+.philosophyArea, .eventArea, .companyInfArea{
+	width: 75vw;
+	margin: 20px auto;
+	padding-bottom: 10px;
+}
+
+.philosophyBox, .eventBox{
+	position: relative;
+	margin-bottom: 25px;
+}
+
+.philosophyFlexBox1{
+	width: 75vw;
+	position: absolute;
+	bottom: 7px;
+	background-color:#dd3a73d1;
+	color: #fefffd;
+}
+
+.philosophyFlexBox2{
+	width: 75vw;
+	position: absolute;
+	bottom: 7px;
+	background-color: #3786ded1;
+	color: #fefffd;
+}
+
+.philosophyFlexBox3{
+	width: 75vw;
+	position: absolute;
+	bottom: 7px;
+	background-color: #75d534d1;
+	color: #fefffd;
+}
+
+.philosophyFlexBox4{
+	width: 75vw;
+	position: absolute;
+	bottom: 7px;
+	background-color: #d3d53dd1;
+	color: #fefffd;
+}
+
+.philosophyBox h3{
+	width: 15vw;
+	height: 3vh;
+	font-size: 23px;
+	text-align: left;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.philosophyBox p{
+	width: 75vw;
+	font-size: 14px;
+	text-align: left;
+	margin: 10px auto 5px 10px;
+}
+
+
+.eventBox h3{
+	width: 45vw;
+	height: 3vh;
+	font-size: 18px;
+	text-align: left;
+	margin: 5px auto 3px 10px;
+}
+
+.eventBox p{
+	width: 100%;
+	font-size: 14px;
+	text-align: left;
+	margin: 3px auto 5px 10px;
+}
+
+.eventFlexBox1{
+	width: 100%;
+	position: absolute;
+	bottom: 7px;
+	background-color:#dd5636d1;
+	color: #fefffd;
+}
+
+.eventFlexBox2{
+	width: 100%;
+	position: absolute;
+	bottom: 7px;
+	background-color: #3786ded1;
+	color: #fefffd;
+}
+
+.eventFlexBox3{
+	width: 100%;
+	position: absolute;
+	bottom: 7px;
+	background-color: #75d534d1;
+	color: #fefffd;
+}
+
+.eventFlexBox4{
+	width: 100%;
+	position: absolute;
+	bottom: 7px;
+	background-color: #d3d53dd1;
+	color: #fefffd;
+}
+
+.eventFlexBox5{
+	width: 100%;
+	position: absolute;
+	bottom: 7px;
+	background-color: #dd3a73d1;
+	color: #fefffd;
+}
+
+.companyInfArea{
+	padding-bottom: 20px;
+}
+
+.couleurArea{
+	border-bottom: dashed 2px #ffa200;
+	padding-bottom: 10px;
+}
+
+.companyInfArea h3{
+	margin-bottom: 5px;
+}
+
+.companyInfArea h4{
+	margin: 5px auto;
+}
+
+.companyInfArea p{
+	margin: 5px auto;
+}
+
+/*---------------------------------------------------------------------*/
+/*Responsive*/
+/*---------------------------------------------------------------------*/
+@media screen and (min-width: 768px){
+
+	body{
+		background-image: url("img/back_tablet.png");
+	}
+
+	.titleArea {
+		font-size: 55px;
+	}
+
+	section{
+		margin: 10px auto;
+		margin-bottom: 65px;
+	}
+
+	h2 {
+		font-size: 45px;
+	}
+
+	.representativeMessageArea{
+		margin: 20px auto;
+		width: 70vw;
+	}
+
+	.representativeMessageBox{
+		height: 400px;
+		margin-bottom: 75px;
+	}
+	
+	.messageTitleArea{
+		width: 100%;
+		bottom: -57px;
+	}
+
+	.messageArea{
+		width: 95%;
+		top: 20px;
+	}
+
+	.messageTitleArea h3{
+		font-size: 30px;
+	}
+
+	.messageTitleArea p{
+		font-size: 20px;
+	}
+
+	.messageArea p, .couleurArea h4{
+		font-size: 32px;
+	}
+
+	.philosophyArea{
+		width: 70vw;
+	}
+
+	.philosophyBox{
+		margin-bottom: 65px;
+	}
+
+	.philosophyBox h3{
+		width: 130px;
+		height: 80px;
+		font-size: 46px;
+		text-align: center;
+		margin: 30px auto 30px 20px;
+	}
+
+	.philosophyBox p{
+		width: 480px;
+		font-size: 22px;
+		margin: 30px 20px 30px 10px;
+	}
+	
+	.philosophyFlexBox1{
+		width: 100%;
+		height: 120px;
+		display: flex;
+		justify-content: space-between;
+		bottom: 7px;
+	}
+	
+	.philosophyFlexBox2{
+		width: 100%;
+		height: 120px;
+		display: flex;
+		justify-content: space-between;
+		bottom: 7px;
+	}
+	
+	.philosophyFlexBox3{
+		width: 100%;
+		height: 120px;
+		display: flex;
+		justify-content: space-between;
+		bottom: 7px;
+	}
+	
+	.philosophyFlexBox4{
+		width: 100%;
+		height: 120px;
+		display: flex;
+		justify-content: space-between;
+		bottom: 7px;
+	}
+
+	.eventArea{
+		width: 70vw;
+	}
+
+	.eventBox h3{
+		width: 300px;
+		height: 40px;
+		font-size: 35px;
+		margin: 5px auto 10px 20px;
+	}
+	
+	.eventBox p{
+		font-size: 25px;
+		text-align: left;
+		margin: 5px auto 5px 20px;
+	}
+
+	.companyInfArea{
+		width: 70vw;
+		padding-bottom: 40px;
+	}
+
+	.couleurArea{
+		padding-bottom: 20px;
+	}
+	
+	.companyInfArea h3{
+		font-size: 35px;
+	}
+
+	.companyInfArea p{
+		font-size: 27px;
+	}
+}
+
+@media screen and (min-width: 1024px){
+
+	.philosophyBox h3{
+		font-size: 65px;
+		margin: 30px auto 30px 30px;	
+	}
+
+	.philosophyBox p{
+		width: 450px;
+		font-size: 26px;
+		margin: 30px 30px 30px auto;
+	}
+	
+	.philosophyFlexBox1{
+		height: 141px;
+	}
+	
+	.philosophyFlexBox2{
+		height: 140px;
+	}
+	
+	.philosophyFlexBox3{
+		height: 140px;
+	}
+	
+	.philosophyFlexBox4{
+		height: 140px;
+	}
+}
+
+@media screen and (min-width: 1025px){
+	
+	body{
+		background-image: url("img/back_pc.png");
+	}
+
+	.titleArea {
+		font-size: 60px;
+	}
+
+	section{
+		width: 1000px;
+		margin: 10px auto;
+		margin-bottom: 65px;
+	}
+
+	h2 {
+		font-size: 52px;
+	}
+
+	.representativeMessageArea{
+		width: 800px;
+	}
+
+	.messageTitleArea{
+		bottom: -25px;
+	}
+
+	.philosophyArea{
+		width: 900px;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+
+	.philosophyBox{
+		width: 400px;
+		margin-bottom: 50px;
+	}
+
+	.philosophyFlexBox1{
+		width: 100%;
+		height: 130px;
+		display: block;
+		bottom: 0px;
+	}
+	
+	.philosophyFlexBox2{
+		width: 100%;
+		height: 126px;
+		display: block;
+		bottom: 0px;
+	}
+	
+	.philosophyFlexBox3{
+		width: 100%;
+		height: 130px;
+		display: block;
+		bottom: 0px;
+	}
+	
+	.philosophyFlexBox4{
+		width: 100%;
+		height: 130px;
+		display: block;
+		bottom: 0px;
+	}
+
+	.philosophyBox h3{
+		width: 123px;
+		height: 50px;
+		font-size: 40px;
+		text-align: left;
+		margin: 5px auto 0 10px;
+	}
+
+	.philosophyBox p{
+		width: 470px;
+		font-size: 20px;
+		margin: 5px auto 5px 10px;
+	}
+
+	.representativeMessageBox{
+		height: 500px;
+		margin-bottom: 50px;
+	}
+	/*
+	.philosophyBox h3{
+		width: 140px;
+		font-size: 70px;
+		margin: 20px auto 20px 50px;
+	}
+
+	.philosophyBox p{
+		width: 470px;
+		font-size: 27px;
+	}*/
+
+	.eventArea {
+		width: 700px;
+	}
+
+	.companyInfArea{
+		width: 700px;
+	}
+}
